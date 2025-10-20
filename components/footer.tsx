@@ -42,8 +42,8 @@ export function Footer() {
             <h4 className="text-sm font-bold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>
-                <a href="mailto:contact@nexiea.fr" className="hover:text-accent transition-colors">
-                  contact@nexiea.fr
+                <a href="mailto:nexiea.team@gmail.com" className="hover:text-accent transition-colors">
+                  nexiea.team@gmail.com
                 </a>
               </li>
               <li>Paris & Ivry-sur-Seine</li>

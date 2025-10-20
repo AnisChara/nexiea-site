@@ -20,7 +20,7 @@ export function HeroSection() {
         étudiants rigoureux, passionnés et formés aux technologies de demain.
       </p>
 
-      <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
+      <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
         <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
           <Link href="#services">
             Découvrir nos services
@@ -37,7 +37,7 @@ export function HeroSection() {
         </Button>
       </div>
 
-      <div className="flex flex-wrap items-center justify-center gap-4 text-primary-foreground/70 text-sm">
+      <div className="flex flex-wrap items-center justify-center gap-4 text-primary-foreground/70 text-sm mb-4">
         <div className="flex items-center gap-2">
           <div className="h-2 w-2 rounded-full bg-accent" />
           <span>Data</span>

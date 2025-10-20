@@ -5,7 +5,13 @@ export function AboutSection() {
   return (
     <section id="qui-sommes-nous" className="py-20 lg:py-32 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Logo + titre */}
         <div className="max-w-3xl mx-auto text-center mb-16">
+          <img
+            src="/LOGO_NEXIEA.png"
+            alt="Logo NEXIEA"
+            className="mx-auto mb-6 w-28 h-auto sm:w-36"
+          />
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
             Qui sommes-nous ?
           </h2>
@@ -57,13 +63,12 @@ export function AboutSection() {
               <div>
                 <h3 className="text-2xl font-bold mb-4">Notre différence</h3>
                 <p className="text-primary-foreground/90 leading-relaxed mb-4">
-                  Un haut niveau d'exigence, une organisation allégée grâce à l'automatisation, et une ambition claire
-                  de devenir un acteur reconnu dans l'écosystème tech français.
+                  Notre force : un haut niveau d’exigence, une organisation agile grâce à l’automatisation, et une
+                  ambition claire : devenir un acteur de référence dans l’écosystème tech français.
                 </p>
                 <p className="text-primary-foreground/80 leading-relaxed">
-                  Nous sommes une association étudiante structurée comme une entreprise, avec des administrateurs dédiés
-                  à la stratégie et à la qualité, et un réseau de consultants spécialisés mobilisables en fonction des
-                  projets.
+                  NEXIEA est une association étudiante structurée comme une entreprise, avec une équipe dédiée à la
+                  stratégie, à la qualité et un réseau de consultants spécialisés mobilisables selon les projets.
                 </p>
               </div>
             </div>
