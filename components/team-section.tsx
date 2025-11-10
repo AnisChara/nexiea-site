@@ -6,17 +6,17 @@ export function TeamSection() {
     {
       name: "Imad Sabri",
       role: "Président",
-      description: "Vision, développement stratégique",
+      link: "https://www.linkedin.com/in/imad-sabri/",
     },
     {
       name: "Clément Rivrin",
-      role: "Trésorier & Responsable Qualité",
-      description: "Gestion financière et assurance qualité",
+      role: "Directeur Financier",
+      link: "https://www.linkedin.com/in/rivrin-cl%C3%A9ment/",
     },
     {
       name: "Adrien Vallon",
-      role: "Secrétaire Général & Responsable Opérations",
-      description: "Coordination opérationnelle et administrative",
+      role: "Directeur des Opérations",
+      link: "https://www.linkedin.com/in/adrien-vallon-367971269/",
     },
   ]
 
@@ -35,12 +35,14 @@ export function TeamSection() {
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {founders.map((founder, index) => (
-            <Card key={index} className="p-8 bg-card border-border hover:shadow-white transition-shadow" >
+            <a href={founder.link} key={index}>
+            <Card  className="p-8 bg-card border-border hover:shadow-white transition-shadow" >
               <div className="flex flex-col items-center text-center">
                 <h3 className="text-xl font-bold text-card-foreground mb-2">{founder.name}</h3>
                 <p className="text-sm font-medium text-accent mb-3">{founder.role}</p>
               </div>
             </Card>
+            </a>
           ))}
         </div>
       </div>
